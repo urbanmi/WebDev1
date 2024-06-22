@@ -1,2 +1,0 @@
-# WebDev1
- smartNinja
