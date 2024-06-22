@@ -1,0 +1,13 @@
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+    font-family: monospace;
+    font-size: 22px;
+}
+
+.bigger {
+    font-size: 50px;
+}

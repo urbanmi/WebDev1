@@ -1,0 +1,28 @@
+* { /* selektor, ki zbere vse */
+    box-sizing: border-box;
+}
+.square {
+    height: 100px;
+    background-color: blue;
+    width: 150px;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    /* TOP, LEFT, RIGHT, BOTTOM
+       padding-top
+       padding-bottom
+       padding-right
+       padding-left
+       (odmiki od roba diva, posamično)
+
+       margin (odmik od na ven)
+    */
+}
+.container {
+    display: flex;
+    border: 5px solid black;
+    height: 95vh;
+    flex-wrap: wrap;
+    align-content: flex-end;
+
+}

@@ -1,0 +1,27 @@
+/*
+    3.1 EXTERNAL CSS - No selector
+ */
+
+p {
+    color: darkcyan;
+    font-size: 18px;
+    glyph-orientation-vertical: revert;
+}
+
+/*
+    3.2 EXTERNAL CSS - ID
+ */
+#blue {
+    color: blue;
+    font-size: 23px;
+}
+
+.dvojka {
+    color: #00FF00;
+    font-family: Helvetica;
+    font-style: italic;
+}
+
+.zadnja {
+    fill-opacity: 95;
+}

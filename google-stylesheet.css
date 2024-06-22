@@ -1,0 +1,59 @@
+#container {
+    box-sizing: border-box;
+    height: 2000 px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#topBar {
+    display: flex;
+    justify-content: end;
+}
+
+a {
+    margin: 20px;
+    color: slategrey;
+    text-underline-style: none;
+    text-underline-mode:;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+#searchBar {
+    display: flex;
+    align-content: center;
+    width: 800 px;
+    height: 100 px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.icon {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botBar {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

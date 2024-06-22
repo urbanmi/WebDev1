@@ -1,0 +1,112 @@
+#top {
+    background-color: cadetblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.dropbtn {
+    background-color: aquamarine;
+    color: mediumslateblue;
+    height: 100%;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    padding: 20px;
+    position: absolute;
+    background-color: antiquewhite;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px, 0 px rgba (0,0,0,0.5);
+    z-infex: 1;
+}
+
+.dropdown-content a {
+    color: darkorange;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: darkorange;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.main {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    background-image: url("https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630");
+    background-position-x: -200px;
+    background-color: rgba(255,255, 255, 0.8);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#mainIdea {
+    font-family: "IBM Plex Mono";
+    font-size: 15px;
+    color: lightsalmon;
+    width: 40%;
+    letter-spacing: 5px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align: justify;
+    text-shadow: #f1f1f1 2px;
+    text-overflow-mode: wrap;
+
+}
+
+.contacts {
+    display: flex;
+    box-sizing: border-box;
+    height: 800px;
+    width: 10%;
+    background-color: cadetblue;
+}
+
+
+
+ul.contactsList {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 7px;
+    padding-top: 50px;
+}
+
+
+
+.startToProg {
+
+
+}
+
+#start {
+
+}
